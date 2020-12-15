@@ -1,0 +1,73 @@
+.btn-create{
+    background-color: #FF7A00;
+    border: 4px solid #373A3C; 
+    display: block; 
+    margin: 10px auto; 
+    width: 200px;
+}
+.btn-link{
+    color:#FF7A00 
+}
+.lable-rect-stat{
+    width: 545px;
+    height: 160px; 
+    margin:10px auto; 
+    font-size: 96px; 
+    border: 4px solid #FF7A00; 
+    background-color:#373A3C; 
+    border-radius: 4px; 
+    padding: 4px; 
+    color: aliceblue;
+}
+.t-1{
+    text-align: center;
+}
+
+.card-r{
+    background-color: #FF7A00 !important; 
+    border: #FF7A00;
+}
+.lable-mpn{
+    margin: 20px auto; 
+    font-size: 40px; 
+    white-space: nowrap;
+}
+.btn-aph{
+    line-height: 0em;
+}
+.bar-menu{
+    margin-left: auto; 
+    margin-right: auto;
+}
+.lable-rect-create{
+    width: 590px; 
+    height: 150px; 
+    margin:10px auto; 
+    font-size: 96px; 
+    border: 4px solid #FF7A00; 
+    background-color:#373A3C; 
+    border-radius: 4px; 
+    padding: 4px; 
+    color: aliceblue;
+}
+.pic-add{
+    border: 4px solid #FF7A00;
+    background-color:#373A3C; 
+    display: block; 
+    margin: 0 auto;
+    border-radius: 4px; 
+    width: 750px;
+}
+
+.lable-fiel-article{
+    display: block; 
+    margin: 10px  180px; 
+    font-size: 24px;
+}
+.input-field{
+    border:4px solid #FF7A00; 
+    border-radius: 4px; 
+    width: 750px;
+    display: block; 
+    margin: 10px auto;
+}
