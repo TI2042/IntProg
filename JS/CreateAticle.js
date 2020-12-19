@@ -1,4 +1,4 @@
-const form = document.forms[0];
+const button = form["submit"];
 
 function checkIfNotEmpty(str) {
     return str !== '';
@@ -10,7 +10,7 @@ function showMessage(type, text) {
         showConfirmButton: false
     });
 }
-form.addEventListener('submit', (event) => {
+button.addEventListener("click", (event) => {
     event.preventDefault();
 
 	let formData = new FormData(form);
