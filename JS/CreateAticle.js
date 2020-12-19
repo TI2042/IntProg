@@ -10,11 +10,12 @@ function showMessage(type, text) {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-    let form = document.forms[0];
+    let form = document.forms[1];
     let button = form["submit"];
-    let formData = new FormData(form)
+    
 
     button.addEventListener("click", (event) => {
+        let formData = new FormData(form)
         event.preventDefault()
 
         for (var value of formData.values()) {
