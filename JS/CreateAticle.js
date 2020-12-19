@@ -1,4 +1,3 @@
-let form = document.forms[0];
 function checkIfNotEmpty(str) {
     return str !== '';
 }
@@ -9,8 +8,14 @@ function showMessage(type, text) {
         showConfirmButton: false
     });
 }
-form.addEventListener('submit', (event) => {
-    event.preventDefault()
+
+document.addEventListener("DOMContentLoaded", () => {
+    let form = document.forms[0];
+    let button = form["submit"];
+    let formData = new FormData(form)
+
+    button.addEventListener("click", () => {
+        event.preventDefault()
 
     let formData = new FormData(form);
     for (var value of formData.values()) {
@@ -28,6 +33,5 @@ form.addEventListener('submit', (event) => {
         showConfirmButton: false,
     })
     showMessage('success', 'The article was successfully created! Congratulations.');
-
-
+    })
 })
