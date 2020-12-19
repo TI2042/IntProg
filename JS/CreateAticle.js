@@ -1,3 +1,4 @@
+const form = document.forms[0];
 const button = form["submit"];
 
 function checkIfNotEmpty(str) {
