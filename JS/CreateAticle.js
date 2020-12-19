@@ -1,4 +1,4 @@
-const form = document.forms[0];
+let form = document.forms[0];
 function checkIfNotEmpty(str) {
     return str !== '';
 }
